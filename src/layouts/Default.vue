@@ -7,6 +7,7 @@
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/about/">About</g-link>
+        <locale-switcher></locale-switcher>
       </nav>
     </header>
     <slot/>
@@ -20,6 +21,15 @@ query {
   }
 }
 </static-query>
+
+<script>
+import LocaleSwitcher from '@/components/LocaleSwitcher.vue'
+export default {
+  components: {
+    LocaleSwitcher
+  }
+}
+</script>
 
 <style>
 body {
