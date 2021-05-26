@@ -8,6 +8,9 @@ module.exports = {
   siteName: 'Gridsome',
   plugins: [
     {
+      use: 'gridsome-plugin-typescript',
+    },
+    {
       use: 'gridsome-plugin-windicss',
       options: {
         // see https://github.com/windicss/vite-plugin-windicss/blob/main/packages/plugin-utils/src/options.ts
