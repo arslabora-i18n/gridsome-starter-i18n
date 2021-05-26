@@ -5,12 +5,22 @@
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-        <locale-switcher></locale-switcher>
+        <g-link
+          class="nav__link"
+          to="/"
+        >
+          Home
+        </g-link>
+        <g-link
+          class="nav__link"
+          to="/about/"
+        >
+          About
+        </g-link>
+        <locale-switcher />
       </nav>
     </header>
-    <slot/>
+    <slot />
   </div>
 </template>
 
@@ -23,12 +33,12 @@ query {
 </static-query>
 
 <script>
-import LocaleSwitcher from '@/components/LocaleSwitcher.vue'
+import LocaleSwitcher from '@/components/LocaleSwitcher.vue';
 export default {
   components: {
-    LocaleSwitcher
-  }
-}
+    LocaleSwitcher,
+  },
+};
 </script>
 
 <style>
