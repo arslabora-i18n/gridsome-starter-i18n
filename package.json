@@ -9,7 +9,9 @@
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
+    "@noxify/gridsome-remark-classes": "^1.0.0",
     "gridsome": "^0.7.0",
-    "gridsome-plugin-i18n": "^1.6.0"
+    "gridsome-plugin-i18n": "^1.6.0",
+    "gridsome-remark-figure-caption": "^1.2.0"
   }
 }

@@ -23,7 +23,7 @@ module.exports = {
         fallbackLocale: 'en-us',
         defaultLocale: 'en-us',
         enablePathRewrite: true,
-        rewriteDefaultLanguage: true      
+        rewriteDefaultLanguage: true
       }
     },
     {
@@ -32,6 +32,21 @@ module.exports = {
         path: './content/blog/**/*.md',
         typeName: 'Post',
         remark: {
+          plugins: [
+            '@noxify/gridsome-remark-classes', {
+              // add classes to markdown elements
+              // 'heading[depth=1]': 'title',
+              // 'heading[depth=2]': 'subtitle',
+              // 'paragraph': 'text-normal font-serif'
+            },
+            "gridsome-remark-figure-caption",
+            {
+              // define classes for figure
+              // figureClassName: "md-figure-block",
+              // imageClassName: "md-figure-image",
+              // captionClassName: "md-figure-caption",
+            },
+          ],
           // remark options
         }
       }
