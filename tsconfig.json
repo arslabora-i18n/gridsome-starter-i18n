@@ -5,10 +5,15 @@
     "moduleResolution": "node",
     "noImplicitReturns": true,
     "outDir": "./built/",
+    "rootDir": "./src",
     "sourceMap": true,
     "strict": true
   },
   "include": [
-    "./src/**/*"
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
   ]
 }
