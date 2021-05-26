@@ -11,15 +11,10 @@ module.exports = {
       use: 'gridsome-plugin-i18n',
       options: {
         locales: [
-          'en-us',
-          'it-it',
-          'pt-br'
+          'en',
+          'it',
+          'pt'
         ],
-        pathAliases: {
-          'en-us': 'en',
-          'it-it': 'it',
-          'pt-br': 'pt'
-        },
         fallbackLocale: 'en-us',
         defaultLocale: 'en-us',
         enablePathRewrite: true,
