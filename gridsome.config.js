@@ -24,8 +24,8 @@ module.exports = {
           'it',
           'pt'
         ],
-        fallbackLocale: 'en-us',
-        defaultLocale: 'en-us',
+        fallbackLocale: 'en',
+        defaultLocale: 'en',
         enablePathRewrite: true,
         rewriteDefaultLanguage: true
       }

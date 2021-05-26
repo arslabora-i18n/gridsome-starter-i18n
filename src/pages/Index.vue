@@ -7,8 +7,11 @@
     <h1>{{ $t('main.ui.enter')}}</h1>
 
     <pre>
-    Current locale: {{ $context.locale }}
-    Current locale: {{ $i18n.locale }}
+    <span>Using $context.locale: </span>
+    Current locale is {{ $context.locale }}
+    
+    <span>Using vue-i18n ($i18n):</span>
+    Current locale is {{ $i18n.locale }}
     </pre>
 
     <p>
