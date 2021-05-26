@@ -1579,6 +1579,21 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
+"@windicss/animations@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@windicss/animations/-/animations-1.0.8.tgz#0e7c6199d9b3d33b9274d2144aa28f9fa34e95bd"
+  integrity sha512-2edYQdTVh3koQYmZQqXU2hPIvAJRjkqOP/FpzCQv3U0bbtEgmLk3UeHYHzo9jSL5obV12pEhJuAHIzKo6cdRyw==
+
+"@windicss/plugin-interaction-variants@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-interaction-variants/-/plugin-interaction-variants-1.0.0.tgz#11e412c6fd653899f6cced4e4f7b402eb5456981"
+  integrity sha512-jk0kvJEwphPlzjgCASxi0yCrLIrMPBHKTjPB1vF2LZsmWVaIPhKQRfpJW6+G093ipDos1E2BkevDrh/R2Ln8gg==
+
+"@windicss/plugin-scrollbar@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-scrollbar/-/plugin-scrollbar-1.2.3.tgz#4796e999e98a4bca6c269fa1faffd2e9b5452cac"
+  integrity sha512-+cqv1pEmaNPITeBJ/lO6tc8IjBzRhQ+V9G8r249MMXivYoxUO4DtModBrRGHVvBgsYZgPXDsIv2jqtxc4NqYEg==
+
 "@windicss/plugin-utils@0.16.0":
   version "0.16.0"
   resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.16.0.tgz#660586b95ed3394b07f9970b2be77f681ea1ecd4"
