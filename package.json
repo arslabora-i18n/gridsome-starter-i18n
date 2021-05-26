@@ -15,5 +15,8 @@
     "gridsome": "^0.7.0",
     "gridsome-plugin-i18n": "^1.6.0",
     "gridsome-remark-figure-caption": "^1.2.0"
+  },
+  "devDependencies": {
+    "gridsome-plugin-windicss": "^0.3.0"
   }
 }
