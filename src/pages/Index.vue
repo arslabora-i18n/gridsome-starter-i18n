@@ -6,17 +6,19 @@
       src="~/favicon.png"
       width="135"
     />
-    
+
 
     <h1>{{ $t('main.ui.enter') }}</h1>
 
     <pre>
     <span>Using $context.locale: </span>
     Current locale is {{ $context.locale }}
-    
+
     <span>Using vue-i18n ($i18n):</span>
     Current locale is {{ $i18n.locale }}
     </pre>
+
+    <g-link to="/pages">Pages</g-link>
 
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
