@@ -11,10 +11,11 @@
     "node": true
   },
   "extends": [
-    "eslint:recommended",
+    // "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:vue/recommended"
+    "plugin:vue/recommended",
+    "standard"
   ],
   "rules": {
     "semi": [
@@ -41,7 +42,8 @@
         "allowHigherOrderFunctions": true,
         "allowTypedFunctionExpressions": true
       }
-    ]
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": "off"
   },
   "overrides": [
     {
