@@ -4,6 +4,9 @@
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
+
+        <locale-switcher />
+
       <nav class="nav">
         <g-link
           class="nav__link"
@@ -17,7 +20,12 @@
         >
           About
         </g-link>
-        <locale-switcher />
+        <g-link
+          class="nav__link"
+          to="/pages"
+        >Pages
+        </g-link>
+
       </nav>
     </header>
     <slot />

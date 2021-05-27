@@ -18,8 +18,6 @@
     Current locale is {{ $i18n.locale }}
     </pre>
 
-    <g-link to="/pages">Pages</g-link>
-
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
     </p>
