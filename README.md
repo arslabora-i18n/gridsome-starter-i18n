@@ -1,14 +1,16 @@
-# Default starter for Gridsome
+# i18n starter for Gridsome
 
-This is the project you get when you run `gridsome create new-project`.
+This is a gridsome starter, implementing original ideas and ideas borrowed from:
 
-### 1. Install Gridsome CLI tool if you don't have
+https://phrase.com/blog/posts/gridsome-localization/
+https://www.storyblok.com/tp/gridsome-multilanguage-website-tutorial
+https://mannes.tech/gridsome-tutorial
 
-`npm install --global @gridsome/cli`
+It try to offer a sane environment to work with and to manage multilanguage website; some ideas were originated while working in Nuxtjs, then lately ported to Gridsome.
 
-### 2. Create a Gridsome project
+### 1. Install node dependencies
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+`npm install` or `yarn`
+
+### 2. Start the development starter
+`npm run start` or `yarn start`
