@@ -1,5 +1,5 @@
 export const main = {
   ui: {
-    enter: "entra",
-  }
-}
+    enter: 'entra',
+  },
+};
