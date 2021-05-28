@@ -8,15 +8,16 @@
       <locale-switcher />
 
       <nav class="nav">
-        <g-link class="nav__link" to="/">
+        <g-link class="nav__link" :to="$tp('/')">
           Home
         </g-link>
-        <g-link class="nav__link" to="/about/">
+        <g-link class="nav__link" :to="$tp('/about/')">
           About
         </g-link>
-        <g-link class="nav__link" to="/pages">Pages</g-link>
-        <g-link class="nav__link" to="/articles">Articles</g-link>
-        <g-link class="nav__link" to="/posts">Posts</g-link>
+        <g-link class="nav__link" :to="$tp('/pages')">Pages</g-link>
+        <g-link class="nav__link" :to="$tp('/articles')">Articles</g-link>
+        <g-link class="nav__link" :to="$tp('/posts')">Posts</g-link>
+        <g-link class="nav__link" :to="$tp('/blog')">Blog</g-link>
       </nav>
     </header>
     <slot />

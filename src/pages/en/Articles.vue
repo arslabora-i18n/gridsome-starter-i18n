@@ -21,7 +21,7 @@
 
 <page-query>
 query Article {
-  articles: allArticle {
+  articles: allArticle (filter: { lang: { eq: "en" }} ) {
     edges {
       node {
         id

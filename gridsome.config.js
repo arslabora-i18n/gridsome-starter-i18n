@@ -25,7 +25,7 @@ module.exports = {
     {
       use: 'gridsome-plugin-i18n',
       options: {
-        locales: ['en', 'it', 'pt'],
+        locales: ['en', 'it'],
         fallbackLocale: 'en',
         defaultLocale: 'en',
         enablePathRewrite: true,
@@ -58,14 +58,13 @@ module.exports = {
     }
   ],
   templates: {
-    // Tag: '/tag/:id',
     Article: '/articles/:slug',
     Post: '/posts/:slug',
     Blog: '/blog/:slug'
-    // Blog: '/blog/:year/:month/:slug',
   },
   transformers: {
     remark: {
+      plugins: []
       // global remark options
     }
   }

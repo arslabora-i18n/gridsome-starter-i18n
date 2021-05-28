@@ -1,6 +1,6 @@
 ---
 title: "index.it.md"
-slug: "post-02"
+slug: "it-post-02"
 lang: "it"
 ---
 

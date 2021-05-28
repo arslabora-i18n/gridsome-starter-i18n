@@ -7,10 +7,9 @@
 </template>
 
 <page-query>
-query Blog ($path: String!) {
-  post: blog (path: $path) {
-    title
-    date (format: "YYYY-M-D")
+query Post ($path: String!) {
+  post: post (path: $path) {
+    title    
     content
   }
 }
@@ -18,14 +17,12 @@ query Blog ($path: String!) {
 
 <script>
 export default {
-  metaInfo () {
+  metaInfo() {
     return {
-      title: this.$page.post.title,
+      title: this.$page.post.title
     };
-  },
+  }
 };
 </script>
 
-<style>
-
-</style>
+<style></style>

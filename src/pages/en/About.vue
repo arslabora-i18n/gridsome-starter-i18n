@@ -12,8 +12,6 @@
 
 <page-query>
 
-
-
 </page-query>
 
 <script>

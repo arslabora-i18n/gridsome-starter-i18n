@@ -14,6 +14,7 @@
 query Pages {
   pages: allPage {
     path
+    context
   }
 }
 </page-query>

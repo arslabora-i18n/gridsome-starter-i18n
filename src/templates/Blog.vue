@@ -18,14 +18,12 @@ query Blog ($path: String!) {
 
 <script>
 export default {
-  metaInfo () {
+  metaInfo() {
     return {
-      title: this.$page.post.title,
+      title: this.$page.post.title
     };
-  },
+  }
 };
 </script>
 
-<style>
-
-</style>
+<style></style>

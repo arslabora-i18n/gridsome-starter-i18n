@@ -4,26 +4,24 @@
 
     <ul>
       <li
-        v-for="edge in $page.posts.edges"
-        :key="edge.node.id"
-        :post="edge.node"
+        v-for="entry in $page.blogs.edges"
+        :key="entry.node.id"
+        :post="entry.node"
       >
-        ({{ edge.node.lang }}) {{ edge.node.title }}
+        ({{ entry.node.lang }}) {{ entry.node.title }}
       </li>
     </ul>
   </Layout>
 </template>
 
 <page-query>
-query Post {
-  posts: allPost {
+query Blog {
+  blogs: allBlog {
     edges {
       node {
         id
         path
-        title
-        summary
-        lang
+        title                
       }
     }    
   }

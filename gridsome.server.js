@@ -19,6 +19,8 @@ module.exports = function(api) {
       type Post implements Node {
         id: ID!
         title: String
+        path: String
+        slug: String
         summary: String
         lang: String
       }
