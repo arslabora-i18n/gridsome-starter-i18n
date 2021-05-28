@@ -2,18 +2,35 @@
   <Layout>
     <h1>Articles</h1>
 
+    <pre>
+      {{ $context.locale }}
+      {{ articles }}
+    </pre>
+
     <ul>
-      <li v-for="page in $page.pages" :key="page.path">
-        <g-link :to="page.path">{{ page.path }}</g-link>
+      <li
+        v-for="article in $page.articles.edges"
+        :key="article.node.id"
+        :post="article.node"
+      >
+        ({{ article.node.lang }}) / {{ article.node.title }}
       </li>
     </ul>
   </Layout>
 </template>
 
 <page-query>
-query Pages {
-  pages: allPage {
-    path
+query Article {
+  articles: allArticle {
+    edges {
+      node {
+        id
+        path
+        title
+        lang
+        slug
+      }
+    }    
   }
 }
 </page-query>
@@ -21,7 +38,7 @@ query Pages {
 <script>
 export default {
   metaInfo: {
-    title: 'Articles',
-  },
+    title: 'Articles'
+  }
 };
 </script>

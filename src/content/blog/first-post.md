@@ -1,5 +1,6 @@
 ---
 title: "a post"
+slug: "a-post"
 date: "2021-05-26"
 ---
 

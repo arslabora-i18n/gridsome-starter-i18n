@@ -2,10 +2,9 @@
   "name": "diy",
   "private": true,
   "scripts": {
-    "develop": "gridsome develop",
+    "dev": "gridsome develop",
     "explore": "gridsome explore",
-    "build": "gridsome build",
-    "start": "npm run develop"
+    "build": "gridsome build"
   },
   "dependencies": {
     "gridsome": "^0.7.0",

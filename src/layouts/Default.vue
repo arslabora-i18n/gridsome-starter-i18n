@@ -5,27 +5,18 @@
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
 
-        <locale-switcher />
+      <locale-switcher />
 
       <nav class="nav">
-        <g-link
-          class="nav__link"
-          to="/"
-        >
+        <g-link class="nav__link" to="/">
           Home
         </g-link>
-        <g-link
-          class="nav__link"
-          to="/about/"
-        >
+        <g-link class="nav__link" to="/about/">
           About
         </g-link>
-        <g-link
-          class="nav__link"
-          to="/pages"
-        >Pages
-        </g-link>
-
+        <g-link class="nav__link" to="/pages">Pages</g-link>
+        <g-link class="nav__link" to="/articles">Articles</g-link>
+        <g-link class="nav__link" to="/posts">Posts</g-link>
       </nav>
     </header>
     <slot />
@@ -44,16 +35,17 @@ query {
 import LocaleSwitcher from '@/components/LocaleSwitcher.vue';
 export default {
   components: {
-    LocaleSwitcher,
-  },
+    LocaleSwitcher
+  }
 };
 </script>
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
 }
 

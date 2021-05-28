@@ -1,6 +1,8 @@
 ---
 title: "Questo è un post!"
+slug: "questo-e-un-post"
 date: "2021-05-27"
+lang: "it"
 ---
 
 Minim labore ea adipisicing incididunt aute sunt. Excepteur deserunt consectetur veniam aliqua irure sint. Reprehenderit ea dolor velit mollit officia sit. Esse culpa sint tempor labore irure. Cupidatat est ea magna deserunt mollit do dolore dolore. Ad consectetur mollit esse deserunt laboris ullamco pariatur. Eu ad ea sint consectetur laborum amet commodo nulla proident non cupidatat aliqua veniam.

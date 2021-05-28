@@ -1,5 +1,6 @@
 ---
 title: "One post more"
+slug: "one-post-more"
 date: "2021-05-27"
 ---
 

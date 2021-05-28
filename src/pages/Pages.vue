@@ -21,7 +21,7 @@ query Pages {
 <script>
 export default {
   metaInfo: {
-    title: 'Pages',
-  },
+    title: 'Pages'
+  }
 };
 </script>
