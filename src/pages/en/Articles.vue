@@ -27,8 +27,7 @@ query Article {
         id
         path
         title
-        lang
-        slug
+        lang        
       }
     }    
   }

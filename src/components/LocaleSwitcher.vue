@@ -1,24 +1,24 @@
 <template>
-  <select :value="currentLocale" @change="localeChanged">
-    <option v-for="locale in localeList" :key="locale" :value="locale">
+  <select v-model="currentLocale" @change="localeChanged">
+    <option v-for="locale in availableLocales" :key="locale" :value="locale">
       {{ locale }}
     </option>
   </select>
 </template>
+
 <script>
-import { languageMixin } from '@/mixins/languageMixin';
 export default {
   name: 'LocaleSwitcher',
-  mixins: [languageMixin],
   data: function() {
     return {
-      currentLocale: this.$i18n.locale
+      currentLocale: this.i18n.locale.toString(),
+      availableLocales: this.$i18n.availableLocales
     };
   },
   methods: {
-    localeChanged(event) {
-      this.loadLanguageAsync(event.target.value).catch(() => {
-        console.log('Async language fetch failed');
+    localeChanged() {
+      this.$router.push({
+        path: this.$tp(this.$route.path, this.currentLocale, true)
       });
     }
   }

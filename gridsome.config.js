@@ -29,7 +29,9 @@ module.exports = {
         fallbackLocale: 'en',
         defaultLocale: 'en',
         enablePathRewrite: true,
-        rewriteDefaultLanguage: true
+        rewriteDefaultLanguage: true,
+        enablePathGeneration: false,
+        routes: require('./src/routes.js')
       }
     },
     {
